@@ -18,3 +18,7 @@ const rakib = {
 
 const rakibTreat = avro.giveTreat.bind(rakib);
 console.log(rakibTreat(500,500));
+
+const arr = [1,2,3,4];
+console.log(...arr);
+console.log(Math.max(...arr))
